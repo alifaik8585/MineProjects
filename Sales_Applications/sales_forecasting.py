@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import os,string,signal
 
 __authon__ = 'Sayed'
