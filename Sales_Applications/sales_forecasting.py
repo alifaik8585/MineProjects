@@ -202,6 +202,7 @@ def read_conf_file(file_name , key_to_read) :
 	try:
 		with open(file_name) as product_conf :
 			lines = product_conf.readlines()
+			product_conf.close()
 		ret = {}
 
 		def splitLeft(s, delimiter = ',') :
